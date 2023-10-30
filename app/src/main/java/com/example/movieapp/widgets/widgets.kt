@@ -73,7 +73,6 @@ fun MovieRow(movie: Movie, onItemClick: (String) -> Unit) {
                 shape = CircleShape,
                 shadowElevation = 4.dp
             ) {
-
                 AsyncImage(
                     model = ImageRequest.Builder(LocalContext.current)
                         .data(movie.images[0])
